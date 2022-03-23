@@ -1,0 +1,22 @@
+$fonts: (
+  logo: "Archivo Narrow",
+  sans-serif,
+  primary: "open sans",
+  sans-serif,
+);
+
+@function getFonts($font) {
+  @return map-get($fonts, $font);
+}
+
+$colors: (
+  white: #ffffff,
+  main-background: #e5e5e5,
+  dark-grey: #8d8d8d,
+  dark-pink: #c32c72,
+  primary-color: #f4f3ee,
+);
+
+@function getColor($color) {
+  @return map-get($colors, $color);
+}
