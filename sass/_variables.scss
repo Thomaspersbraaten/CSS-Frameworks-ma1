@@ -1,8 +1,6 @@
 $fonts: (
-  logo: "Archivo Narrow",
-  sans-serif,
+  nav-item: "Archivo Narrow",
   primary: "open sans",
-  sans-serif,
 );
 
 @function getFonts($font) {

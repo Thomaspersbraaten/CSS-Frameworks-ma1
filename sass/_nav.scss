@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  background-color: getColor(primary-color);
+  &__collapse {
+    justify-content: right;
+  }
+}
+.navbar-nav {
+  &__link {
+    color: getColor(dark-grey) !important;
+    max-width: 70px;
+  }
+  &__link--active {
+    max-width: 70px;
+    color: getColor(dark-pink) !important;
+  }
+}

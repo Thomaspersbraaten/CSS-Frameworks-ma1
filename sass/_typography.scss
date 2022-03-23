@@ -1,0 +1,26 @@
+.header {
+  font-family: getFonts(primary);
+}
+
+.navbar {
+  &__logo {
+    @extend .header;
+    font-size: 1.9em !important;
+  }
+}
+.navbar-nav {
+  font-size: 1.2em;
+  &__link {
+    font-family: getFonts(nav-item);
+    text-transform: uppercase;
+  }
+  &__link--active {
+    @extend .navbar-nav__link;
+  }
+}
+
+.footer {
+  &__item {
+    @extend .header;
+  }
+}
